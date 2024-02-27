@@ -1,8 +1,8 @@
-# The Flower Bed
+The Flower Bed
 
 This is the February 2024 Code Jam of the Software Engineering program at TripleTen.
 
-## Project Features
+Project Features
 
 - Semantic HTML5
 - JavaScript
@@ -11,4 +11,4 @@ This is the February 2024 Code Jam of the Software Engineering program at Triple
 - Flat BEM file structure
 - CSS animation and transform
 
-## Plan on Improving the Project
+Plan on Improving the Project
