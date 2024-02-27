@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  position: relative;
+}
+
+.header__title {
+  max-width: 750px;
+  line-height: 75px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+}
