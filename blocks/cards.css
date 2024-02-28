@@ -1,13 +1,23 @@
 .main__cards {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 396px;
 }
 
 .card {
   background-color: white;
-  padding: auto;
+  padding: 25px;
+  width: 396px;
+}
+
+.card__content {
+  width: 100%;
 }
 
 .card__image {
-  width: 325px;
-  height: 325px;
+  width: 396px;
+  height: 309px;
+  object-fit: cover;
+  border-radius: 10px;
 }
