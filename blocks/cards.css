@@ -3,4 +3,11 @@
 }
 
 .card {
+  background-color: white;
+  padding: auto;
+}
+
+.card__image {
+  width: 325px;
+  height: 325px;
 }
