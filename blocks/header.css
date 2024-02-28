@@ -70,3 +70,52 @@
 
 /* .header__paragraph {
 } */
+
+/* .header__circle-1 {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: indianred;
+  right: -30px;
+  top: -50px;
+  /* clip-path: circle(10% at 2rem 90%);
+  shape-outside: circle(50%); } */
+
+.header__circle-1 {
+  z-index: 2;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #f9e076;
+  right: -50px;
+  top: -50px;
+  padding: 30px 50px 50px 40px;
+  overflow: hidden;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px #faf0c4, inset 0 0 10px #faf0c4;
+  }
+  50% {
+    box-shadow: 0 0 20px #faf0c4, inset 0 0 15px #faf0c4;
+  }
+  100% {
+    box-shadow: 0 0 10px #faf0c4, inset 0 0 10px #faf0c4;
+  }
+}
+
+.header__circle-outer {
+  position: absolute;
+  right: -100px;
+  top: -100px;
+  background-color: transparent;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #faf0c4, inset 0 0 10px #faf0c4;
+  animation: pulse 4s linear 1s infinite;
+  overflow: hidden;
+}
