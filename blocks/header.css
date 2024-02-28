@@ -1,6 +1,9 @@
 .header {
   display: flex;
+  flex-direction: column;
   position: relative;
+  background: linear-gradient(180deg, #ff6868, #ffa69e, #fff);
+  padding: 30px 50px 50px 40px;
 }
 
 .header__title {
