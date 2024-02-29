@@ -42,20 +42,138 @@
         <div class="header__circle-outer"></div>
       </header>
       <main class="main">
-        <h2 class="main__title">Testing</h2>
-        <p class="main__subtitle">power</p>
+
         <ul class="main__cards">
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
+          <li class="card">
+            <div class="card__content">
+              <img
+                src="./images/alli-remler-Nz94zkYHKbw-unsplash.jpg"
+                class="card__image"
+                alt="Bleeding Heart"
+              />
+              <div class="card__description">
+                <h3 class="card__name">Bleeding Heart</h3>
+                <button
+                  class="button card__options-button"
+                  type="button"
+                  id="Bleedingheart"
+                >
+                  Show more
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__content">
+              <img
+                src="./images/katherine-mangum-WwI3EPj0HVc-unsplash.jpg"
+                class="card__image"
+                alt="Bloodroot"
+              />
+              <div class="card__description">
+                <h3 class="card__name">Bloodroot</h3>
+                <button
+                  class="button card__options-button"
+                  type="button"
+                  id="Bloodroot"
+                >
+                  Show more
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__content">
+              <img
+                src="./images/patricia-lavigne-Z0cQIMHHdsg-unsplash.jpg"
+                class="card__image"
+                alt="Daylily"
+              />
+              <div class="card__description">
+                <h3 class="card__name">Daylily</h3>
+                <button
+                  class="button card__options-button"
+                  type="button"
+                  id="Daylily"
+                >
+                  Show more
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__content">
+              <img
+                src="./images/photo-1488718729626-53eaa41c0848.png"
+                class="card__image"
+                alt="Hellebore"
+              />
+              <div class="card__description">
+                <h3 class="card__name">Hellebore</h3>
+                <button
+                  class="button card__options-button"
+                  type="button"
+                  id="Hellebore"
+                >
+                  Show more
+                </button>
+              </div>
+            </div>
+          </li>
         </ul>
       </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__logo">
+            <!-- logo and website name -->
+            <img src="logo.png" alt="The Flower Bed" />
+          </div>
+          <div class="footer__links">
+            <ul class="footer__menu">
+              <!-- Links to important pages -->
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__paragraph">
+          <!-- Paragraph about the website -->
+          <p class="footer__description">
+            Thank you for visiting The Flower Bed, a labor of love crafted by
+            four individuals deeply passionate about the beauty of spring and
+            the wonders of gardening. Explore our site to discover gardening
+            tips, spring flower photos, and a celebration of all things floral.
+            Let's revel in the magic of spring together!
+          </p>
+        </div>
+        <div class="footer__copyright">
+          <!-- Copyright information -->
+          <p>&copy; 2024 The Flower Bed. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
+
+    <!-- Popup Modal Markup -->
+    <!-- this markup has a default image and text -->
+    <!-- we will be dynamically updating these items in javascript when the modal is opened -->
+    <div class="modal">
+      <div class="modal__container">
+        <img
+          class="modal__img"
+          src="https://media.istockphoto.com/id/182838201/photo/daisy-on-white-with-clipping-path.jpg?s=612x612&w=0&k=20&c=Km5MQM4a_Lc-okFrlMp3EyZfb-dLVhHOJct3DnjOaAQ="
+        />
+        <h2 class="modal__header">Planting & Nurturing Your Daisy's</h2>
+        <p class="modal__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          amet sit provident quas unde aperiam minus placeat fuga illo
+          laboriosam, velit, ad quaerat. Doloremque amet sit provident quas unde
+          aperiam minus placeat fuga illo laboriosam, velit, ad quaerat.
+        </p>
+        <button class="button modal__close" type="button">Close</button>
+      </div>
+    </div>
+    <script type="module" src="./scripts/index.js"></script>
+
   </body>
 </html>
