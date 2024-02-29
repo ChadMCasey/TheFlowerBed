@@ -34,15 +34,3 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
-
-.card__options-button {
-  height: 50px;
-  width: 155px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  border: none;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: black;
-  cursor: pointer;
-}
