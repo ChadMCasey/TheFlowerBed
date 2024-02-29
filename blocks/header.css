@@ -8,6 +8,7 @@
   max-height: 650px;
   padding: 30px 50px 50px 40px;
   box-sizing: border-box;
+  overflow: hidden;
   /* background-image: url("../images/"); 
   background-position: center;
   background-size: cover; */
