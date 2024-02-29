@@ -12,6 +12,7 @@
   transition: visbility 0.3s, opacity 0.5s linear;
   padding: 20px;
   font-family: "Poppins", sans-serif;
+  z-index: 999;
 }
 
 .modal_opened {
