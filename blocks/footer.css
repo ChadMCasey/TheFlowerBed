@@ -4,6 +4,8 @@
   font-style: normal;
   font-size: 20px;
   background: linear-gradient(180deg, #ffffff, #bbfbeb, #a5ffd6);
+  background-color: #ffa69e;
+  color: #fff;
 }
 
 .footer__list {
