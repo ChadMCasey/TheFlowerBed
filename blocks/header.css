@@ -112,6 +112,7 @@
 @media screen and (max-width: 768px) {
   .header {
     width: 100%;
+    background: linear-gradient(180deg, #feeb92, #84dcc6, #a5ffd6, #fff);
   }
 
   .header__circle-1 {
@@ -146,18 +147,14 @@
   .nav__logo {
     height: 200px;
     width: 200px;
-    z-index: 2;
+    align-items: center;
+    justify-content: center;
   }
   .header__circle-1 {
     display: none;
   }
   .header__circle-outer {
-    width: 250px;
-    height: 250px;
-    justify-content: center;
-    align-items: center;
-    right: 35px;
-    top: 5px;
+    display: none;
   }
 
   .header__footer {
