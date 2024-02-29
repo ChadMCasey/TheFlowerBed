@@ -12,45 +12,121 @@
       rel="stylesheet"
     />
     <title>The Flower Bed</title>
+    <link rel="shortcut icon" href="./favicon.ico.png" />
   </head>
 
   <body>
     <div class="page">
       <header class="header">
-        <nav class="nav">
-          <ul class="nav__links">
-            <li>
-              <a href="#one" class="nav__link">one</a>
-            </li>
-            <li>
-              <a href="#two" class="nav__link">two</a>
-            </li>
-            <li>
-              <a href="#three" class="nav__link">three</a>
-            </li>
-          </ul>
-        </nav>
+        <img src="./images/" alt="Garden Logo" class="nav__logo" />
         <h1 class="header__title">
-          <p>The test for the image</p>
-          <img src="" alt="" class="header__image" />
+          Welcome to the <span class="header__span-accent">Flower Bed!</span>
         </h1>
-        <p class="header__description">Welcome to the Flower Bed!</p>
+        <img src="" alt="" class="header__image" />
+        <p class="header__description">
+          Here at our garden center, we help families find the perfect seasonal
+          plants to accent their landscapes. Join us as we prepare for Spring
+          2024!
+        </p>
+        <div class="header__footer">
+          <p class="header__address">
+            250 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+        <div class="header__circle-1"></div>
+        <div class="header__circle-outer"></div>
       </header>
       <main class="main">
-        <h2 class="main__title">Testing</h2>
-        <p class="main__subtitle">power</p>
+        
         <ul class="main__cards">
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
-          <li class="card">asdfgaewrgawesfd</li>
+          <li class="card">
+            <div class="card__content">
+              <img
+                src="./images/alli-remler-Nz94zkYHKbw-unsplash.jpg"
+                class="card__image"
+                alt="Bleeding Heart"
+              />
+              <div class="card__description">
+                <h3 class="card__name">Bleeding Heart</h3>
+                <button class="card__options-button" type="button">
+                  Show more
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__content">
+              <img
+                src="./images/katherine-mangum-WwI3EPj0HVc-unsplash.jpg"
+                class="card__image"
+                alt="Bloodroot"
+              />
+              <div class="card__description">
+                <h3 class="card__name">Bloodroot</h3>
+                <button class="card__options-button" type="button">
+                  Show more
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__content">
+              <img
+                src="./images/patricia-lavigne-Z0cQIMHHdsg-unsplash.jpg"
+                class="card__image"
+                alt="Daylily"
+              />
+              <div class="card__description">
+                <h3 class="card__name">Daylily</h3>
+                <button class="card__options-button" type="button">
+                  Show more
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__content">
+              <img
+                src="./images/photo-1488718729626-53eaa41c0848.png"
+                class="card__image"
+                alt="Hellebore"
+              />
+              <div class="card__description">
+                <h3 class="card__name">Hellebore</h3>
+                <button class="card__options-button" type="button">
+                  Show more
+                </button>
+              </div>
+            </div>
+          </li>
         </ul>
       </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__logo">
+            <!-- logo and website name -->
+            <img src="logo.png" alt="The Flower Bed" />
+          </div>
+          <div class="footer__links">
+            <ul class="footer__menu">
+              <!-- Links to important pages -->
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__paragraph">
+          <!-- Paragraph about the website -->
+          <p class="footer__description">
+            Thank you for visiting The Flower Bed, a labor of love crafted by four individuals deeply passionate about the beauty of spring and the wonders of gardening. Explore our site to discover gardening tips, spring flower photos, and a celebration of all things floral. Let's revel in the magic of spring together!</p>
+          </p>
+        </div>
+        <div class="footer__copyright">
+          <!-- Copyright information -->
+          <p>&copy; 2024 The Flower Bed. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
 
     <!-- Popup Modal Markup -->
@@ -72,5 +148,6 @@
         <button class="button modal__close" type="button">Close</button>
       </div>
     </div>
+    <script type="module" src="./scripts/index.js" ></script>
   </body>
 </html>

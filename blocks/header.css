@@ -1,13 +1,122 @@
 .header {
   display: flex;
+  flex-direction: column;
   position: relative;
+  background: linear-gradient(180deg, #84dcc6, #a5ffd6, #fff);
+  height: 100vh;
+  min-height: 500px;
+  max-height: 650px;
+  padding: 30px 50px 50px 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* background-image: url("../images/"); 
+  background-position: center;
+  background-size: cover; */
+}
+
+.header__image {
+  z-index: 1;
+  position: absolute;
+  top: 124px;
+  left: 5px;
+  max-width: 600px;
+  max-height: 550px;
 }
 
 .header__title {
   max-width: 750px;
+  letter-spacing: -0.6px;
   line-height: 75px;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
   font-style: normal;
-  font-weight: 500;
   font-size: 60px;
+  z-index: 2;
+}
+
+.header__description {
+  max-width: 650px;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  z-index: 2;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  color: #ff6868;
+  z-index: 2;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  z-index: 2;
+}
+
+/* .header__paragraph {
+} */
+
+/* .header__circle-1 {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: indianred;
+  right: -30px;
+  top: -50px;
+  /* clip-path: circle(10% at 2rem 90%);
+  shape-outside: circle(50%); } */
+
+.header__circle-1 {
+  z-index: 2;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #f9e076;
+  right: -50px;
+  top: -50px;
+  padding: 30px 50px 50px 40px;
+  overflow: hidden;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px #faf0c4, inset 0 0 10px #faf0c4;
+  }
+  50% {
+    box-shadow: 0 0 20px #faf0c4, inset 0 0 15px #faf0c4;
+  }
+  100% {
+    box-shadow: 0 0 10px #faf0c4, inset 0 0 10px #faf0c4;
+  }
+}
+
+.header__circle-outer {
+  position: absolute;
+  right: -75px;
+  top: -80px;
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #faf0c4, inset 0 0 10px #faf0c4;
+  animation: pulse 4s linear 1s infinite;
+  overflow: hidden;
 }

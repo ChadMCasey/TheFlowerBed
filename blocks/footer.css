@@ -1,0 +1,10 @@
+.footer {
+  padding: 50px 50px;
+  background-color: #ffa69e;
+  color: #fff;
+}
+
+.footer__links {
+  display: flex;
+  padding: 0;
+}
