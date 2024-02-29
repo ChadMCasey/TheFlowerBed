@@ -53,8 +53,6 @@
 
 .header__footer {
   display: flex;
-  justify-content: space-between;
-  position: relative;
   align-items: flex-end;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
