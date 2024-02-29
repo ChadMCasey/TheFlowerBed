@@ -1,23 +1,26 @@
 .footer {
   background: white;
   padding: 50px 50px;
-<<<<<<< Updated upstream
-  background-color: #ffa69e;
-=======
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 20px;
   background: linear-gradient(180deg, #ffffff, #bbfbeb, #a5ffd6);
->>>>>>> Stashed changes
 }
 
 .footer__list {
   list-style-type: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .footer__social-heading {
   font-size: 15px;
-  margin: 35px;
+  margin: 0;
 }
 
 .footer__social-link {
