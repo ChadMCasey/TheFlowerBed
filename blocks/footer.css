@@ -1,9 +1,39 @@
 .footer {
+  background: white;
   padding: 50px 50px;
+<<<<<<< Updated upstream
   background-color: #ffa69e;
+=======
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  background: linear-gradient(180deg, #ffffff, #bbfbeb, #a5ffd6);
+>>>>>>> Stashed changes
 }
 
-.footer__links {
+.footer__list {
+  list-style-type: none;
+}
+
+.footer__social-heading {
+  font-size: 15px;
+  margin: 35px;
+}
+
+.footer__social-link {
+  text-decoration: none;
   display: flex;
-  padding: 0;
+  align-items: center;
+  font-size: 15px;
+  gap: 5px;
+}
+
+.footer__Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  font-size: 12px;
 }
