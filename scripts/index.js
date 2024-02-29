@@ -13,7 +13,7 @@ const flowerObjects = {
     description: "",
   },
 
-  Daylily: {
+  Bleedingheart: {
     img: "../images/Bleedingheart.png",
     title: "Raising the Bleedingheart",
     description: "",
