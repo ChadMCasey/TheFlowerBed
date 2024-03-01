@@ -1,0 +1,18 @@
+.about {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  padding: 50px 50px 80px 80px;
+  background: linear-gradient(180deg, #fff, #eef9f6, #ffffff);
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.about__paragragh {
+  font-size: 15px;
+}
+
+.about__content {
+  padding: 50px 50px;
+}
