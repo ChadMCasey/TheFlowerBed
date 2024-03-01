@@ -107,6 +107,18 @@
   }
 }
 
+@media screen and (max-width: 940px) {
+  .header__circle-1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  }
+  .header__circle-outer {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .header {
     width: 100%;
@@ -114,16 +126,6 @@
   }
   .header__description {
     font-size: 25px;
-  }
-  .header__circle-1 {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-  }
-
-  .header__circle-outer {
-    width: 300px;
-    height: 300px;
   }
 }
 
