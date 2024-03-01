@@ -2,7 +2,7 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 20px;
-  padding: 50px 50px 80px 80px;
+  padding: 40px 80px 40px 80px;
   background: linear-gradient(180deg, #fff, #eef9f6, #ffffff);
   display: flex;
   flex-direction: row;
@@ -26,5 +26,22 @@
   .about__title {
     margin: 0;
     padding: 50px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .about__title {
+    text-align: center;
+    padding-top: auto 40px;
+  }
+  .about__paragragh {
+    text-align: center;
+    padding: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__title {
+    padding: auto;
   }
 }
