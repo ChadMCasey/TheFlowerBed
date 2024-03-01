@@ -13,10 +13,10 @@ const flowerObjects = {
     img: "./images/Daylily.png",
     title: "Nurturing The Daylily",
     description: `The Daylily is a flowering plant in the genus Hemerocallis, a member of the Asphodelaceae
-      family, and is native to Asia. The name Daylily originates from the greek word hemera, meaning day, because of
-      how long each flower lasts and kallos, meaning beauty. The flower has long been planted by gardening enthusiast
-      and horticulturalist for their attractive flowers. Daylilies do best when planted in early to mid spring,
-      so plan accordingly if you wish to grow some of your own this season.`,
+    family, and is native to Asia. The name Daylily originates from the greek word hemera, meaning day, because of
+    how long each flower lasts and kallos, meaning beauty. The flower has long been planted by gardening enthusiast
+    and horticulturalist for their attractive flowers. Daylilies do best when planted in early to mid spring,
+    so plan accordingly if you wish to grow some of your own this season.`,
   },
 
   Bleedingheart: {
