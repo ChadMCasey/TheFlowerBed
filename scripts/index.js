@@ -2,7 +2,7 @@ const flowerObjects = {
   Hellebore: {
     img: "./images/Hellebore.png",
     title: "Taking Care Of The Hellebore",
-    description: `description: Helleborus belongs to a small genus of around 20 herbaceous native to Asia and Europe.
+    description: `Helleborus belongs to a small genus of around 20 herbaceous native to Asia and Europe.
                   The genus was created by Carl Linnaeus in 1753 within volume one of his "Species Plantarum."
                   It is believed that the name originated from the Ancient Greek word elléboros. Many hellebore
                   species are considered toxic, and if ingested, have a burning acrid taste. This species can be planted
