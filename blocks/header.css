@@ -20,27 +20,26 @@
 }
 
 .header__title {
-  flex-direction: row;
-  text-align: center;
   max-width: 750px;
   letter-spacing: -0.6px;
-  line-height: 75px;
+  line-height: 100px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 80px;
+  margin: auto;
+  text-align: center;
   z-index: 2;
 }
 
 .header__span-accent {
-  flex-direction: row;
-  text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: oblique;
   font-size: 80px;
   line-height: 95px;
   color: #ff6868;
+  margin: auto;
   z-index: 2;
 }
 
@@ -59,8 +58,6 @@
 }
 
 .header__footer {
-  display: flex;
-  align-items: flex-end;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -161,32 +158,25 @@
   .header__title {
     font-size: 60px;
     line-height: 30px;
-    margin: auto;
-    text-align: center;
     padding-top: 40px;
     padding-bottom: 15px;
   }
   .header__description {
-    text-align: center;
     padding-bottom: 10px;
   }
   .header__span-accent {
     font-size: 50px;
-    margin: auto;
   }
   .header__description {
     font-size: 20px;
     line-height: 25px;
-    margin: auto;
   }
   .header__footer {
     font-size: 12px;
-    margin: auto;
   }
   .nav__logo {
     width: 150px;
     height: 150px;
-    margin: auto;
   }
   .header__circle-1 {
     width: 50px;
@@ -225,7 +215,6 @@
 @media screen and (max-width: 400px) {
   .header__title {
     text-align: center;
-    margin: auto;
     font-size: 35px;
     line-height: 20px;
     padding-top: 40px;
