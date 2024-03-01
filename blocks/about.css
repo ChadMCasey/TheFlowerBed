@@ -16,3 +16,15 @@
 .about__content {
   padding-left: 50px;
 }
+
+@media only screen and (max-width: 400px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__title {
+    margin: 0;
+    padding: 50px;
+  }
+}
