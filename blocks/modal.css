@@ -9,6 +9,7 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
   transition: visbility 0.3s, opacity 0.5s linear;
   padding: 20px;
   font-family: "Poppins", sans-serif;
@@ -50,9 +51,12 @@
   margin-bottom: 40px;
 }
 
-.modal__close {
-  border: none;
-  background-color: #ff686b;
-  color: #fff;
-  transition: opacity 0.2s ease-in-out;
+@media screen and (width <= 400px) {
+  .modal__container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .modal__description {
+    font-size: 12px;
+  }
 }
