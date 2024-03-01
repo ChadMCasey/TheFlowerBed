@@ -49,6 +49,7 @@
   text-align: center;
   font-weight: 400;
   margin-bottom: 40px;
+  line-height: 1.2;
 }
 
 @media screen and (width <= 400px) {
