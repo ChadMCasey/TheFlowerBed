@@ -1,6 +1,6 @@
 const flowerObjects = {
   Hellebore: {
-    img: "../images/Hellebore.png",
+    img: "./images/Hellebore.png",
     title: "Taking Care Of The Hellebore",
     description: `description: Helleborus belongs to a small genus of around 20 herbaceous native to Asia and Europe.
                   The genus was created by Carl Linnaeus in 1753 within volume one of his "Species Plantarum."
@@ -10,7 +10,7 @@ const flowerObjects = {
   },
 
   Daylily: {
-    img: "../images/Daylily.png",
+    img: "./images/Daylily.png",
     title: "Nurturing The Daylily",
     description: `The Daylily is a flowering plant in the genus Hemerocallis, a member of the Asphodelaceae
       family, and is native to Asia. The name Daylily originates from the greek word hemera, meaning day, because of
@@ -20,7 +20,7 @@ const flowerObjects = {
   },
 
   Bleedingheart: {
-    img: "../images/Bleedingheart.png",
+    img: "./images/Bleedingheart.png",
     title: "Raising the Bleedingheart",
     description: `description: Bleedinghearts are a member of the poppy family, and is native to eastern Asia and North America. 
                   The plant is poisonous if ingested by cats and dogs, the toxic alkaloid dicentrine causes nausea and skin irritation.  
@@ -29,7 +29,7 @@ const flowerObjects = {
   },
 
   Bloodroot: {
-    img: "../images/Bloodroot.png",
+    img: "./images/Bloodroot.png",
     title: "Providing For The Bloodroot",
     description: `description: Bloodroot is a herbaceous perennial from the poppy family, and is native to eastern North America. 
                   Historically, this plant is used to treat wounds, coughs, and can purify the body. 
