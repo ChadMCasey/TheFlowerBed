@@ -14,11 +14,11 @@
 
 .button:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
 
 @media screen and (width <= 400px) {
   .button {
-     font-size: 12px;
+    font-size: 12px;
   }
-
 }
