@@ -29,6 +29,7 @@
   color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 490px) {
