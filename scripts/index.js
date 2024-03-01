@@ -22,7 +22,7 @@ const flowerObjects = {
   Bleedingheart: {
     img: "./images/Bleedingheart.png",
     title: "Raising the Bleedingheart",
-    description: ` Bleedinghearts are a member of the poppy family, and is native to eastern Asia and North America. 
+    description: `Bleedinghearts are a member of the poppy family, and is native to eastern Asia and North America. 
                   The plant is poisonous if ingested by cats and dogs, the toxic alkaloid dicentrine causes nausea and skin irritation.  
                   Throughout history, this flower has symbolized sensitivity, compassion, and spiritual connection. 
                   These perennials like to be planted late spring or early summer, in partial or full shade in well-drained soil, 10-12 inches apart.`,
@@ -31,7 +31,7 @@ const flowerObjects = {
   Bloodroot: {
     img: "./images/Bloodroot.png",
     title: "Providing For The Bloodroot",
-    description: ` Bloodroot is a herbaceous perennial from the poppy family, and is native to eastern North America. 
+    description: `Bloodroot is a herbaceous perennial from the poppy family, and is native to eastern North America. 
                   Historically, this plant is used to treat wounds, coughs, and can purify the body. 
                   Springtime is best for planting, and bloodroot prefers partial or full shade near a north-facing wall to avoid direct sunlight. Use well-drained soil with a slightly acidic pH.`,
   },
