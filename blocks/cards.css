@@ -4,6 +4,7 @@
   justify-content: center;
   grid-gap: 87px 47px;
   list-style-type: none;
+  width: calc(100% - 40px);
   margin: auto;
   padding: 0;
 }
@@ -51,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 352px) {
   .card {
     width: 267px;
   }
