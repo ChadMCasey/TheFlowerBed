@@ -117,9 +117,8 @@
 
 @media screen and (max-width: 1051px) {
   .header__circle-1 {
-    position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
   .header__circle-outer {
     width: 300px;
@@ -257,5 +256,11 @@
     font-size: 8px;
     text-align: center;
     margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .header__title {
+    font-size: 25px;
   }
 }
