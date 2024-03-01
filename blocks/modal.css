@@ -56,7 +56,3 @@
   color: #fff;
   transition: opacity 0.2s ease-in-out;
 }
-
-.modal__close:hover {
-  opacity: 0.8;
-}
