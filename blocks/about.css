@@ -2,29 +2,51 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 20px;
-  padding: 50px 50px 80px 80px;
+  padding: 20px 50px 20px 50px;
   background: linear-gradient(180deg, #fff, #eef9f6, #ffffff);
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
 }
 
+.about__title {
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+}
 .about__paragragh {
   font-size: 15px;
-}
-
-.about__content {
-  padding: 50px 50px;
 }
 
 @media only screen and (max-width: 400px) {
   .about {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
 
   .about__title {
     margin: 0;
-    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .about__title {
+    text-align: center;
+    padding: auto 40px;
+    margin-bottom: 25px;
+  }
+  .about__paragragh {
+    text-align: center;
+    padding: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__title {
+    padding: auto;
   }
 }
