@@ -12,10 +12,6 @@
   width: 396px;
 }
 
-.card__content {
-  width: 100%;
-}
-
 .card__image {
   width: 396px;
   height: 309px;
@@ -33,4 +29,42 @@
   color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+}
+
+@media screen and (max-width: 490px) {
+  .card {
+    width: 320px;
+  }
+
+  .card__content {
+    width: 320px;
+  }
+
+  .card__image {
+    width: 320px;
+    height: 207px;
+  }
+
+  .main__cards {
+    grid-template-columns: repeat(auto-fit, 320px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    width: 267px;
+  }
+
+  .card__image {
+    width: 267px;
+    height: 163px;
+  }
+
+  .card__content {
+    width: 267px;
+  }
+
+  .main__cards {
+    grid-template-columns: repeat(auto-fit, 267px);
+  }
 }
