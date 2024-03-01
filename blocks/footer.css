@@ -11,6 +11,8 @@
 .footer__list {
   list-style-type: none;
   font-family: "Poppins", sans-serif;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
 .footer__social {
@@ -46,6 +48,15 @@
 .footer__logo-image {
   height: 50px;
   width: 50px;
+  transition: transform 0.3s ease;
+}
+
+.footer__logo-image:hover {
+  transform: scale(1.1);
+}
+
+.footer__social-link:hover {
+  opacity: 0.7;
 }
 
 @media only screen and (max-width: 400px) {
