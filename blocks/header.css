@@ -55,6 +55,7 @@
   padding-bottom: 20px;
   max-width: fit-content;
   z-index: 2;
+  opacity: 0.75;
 }
 
 .header__footer {
@@ -65,13 +66,10 @@
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
+  text-align: center;
   color: #000;
   z-index: 2;
   opacity: 0.5;
-}
-
-.header__address {
-  text-align: center;
 }
 
 .header__circle-1 {
