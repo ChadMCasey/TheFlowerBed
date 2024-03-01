@@ -46,6 +46,7 @@ cardButton.forEach((button) => {
     popUp.classList.add("modal_opened");
     modalTitle.textContent = flowerObjects[key].title;
     modalImage.src = flowerObjects[key].img;
+    modalDescription.textContent = flowerObjects[key].description;
   });
 });
 
