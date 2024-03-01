@@ -6,9 +6,14 @@
   background: linear-gradient(180deg, #fff, #eef9f6, #ffffff);
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
 }
 
+.about__title {
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+}
 .about__paragragh {
   font-size: 15px;
 }
