@@ -32,7 +32,7 @@
 
 .header__description {
   max-width: 650px;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 40px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -112,7 +112,9 @@
     width: 100%;
     background: linear-gradient(180deg, #feeb92, #84dcc6, #a5ffd6, #fff);
   }
-
+  .header__description {
+    font-size: 25px;
+  }
   .header__circle-1 {
     position: absolute;
     width: 150px;
@@ -125,21 +127,43 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 584px) {
+  .header__title {
+    font-size: 60px;
+  }
+  .header__span-accent {
+    font-size: 50px;
+  }
+  .header__description {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .header__footer {
+    font-size: 12px;
+  }
+  .nav__logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 380px) {
   .header__title {
     text-align: center;
     max-width: 250px;
     font-size: 30px;
+    line-height: 20px;
+    padding-top: 35px;
+    padding-left: 12px;
   }
   .header__span-accent {
     text-align: center;
     max-width: 250px;
-    font-size: 30px;
-    margin-bottom: 5px;
+    font-size: 40px;
   }
   .header__description {
     font-size: 15px;
-    line-height: 15px;
+    line-height: 20px;
     text-align: center;
   }
   .nav__logo {
@@ -147,6 +171,7 @@
     width: 200px;
     align-items: center;
     justify-content: center;
+    padding-left: 30px;
   }
   .header__circle-1 {
     display: none;
@@ -154,9 +179,9 @@
   .header__circle-outer {
     display: none;
   }
-
   .header__footer {
     font-size: 8px;
     text-align: center;
+    padding-left: 30px;
   }
 }
