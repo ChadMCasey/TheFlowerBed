@@ -20,13 +20,27 @@
 }
 
 .header__title {
+  flex-direction: row;
+  text-align: center;
   max-width: 750px;
   letter-spacing: -0.6px;
   line-height: 75px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 60px;
+  font-size: 80px;
+  z-index: 2;
+}
+
+.header__span-accent {
+  flex-direction: row;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: oblique;
+  font-size: 80px;
+  line-height: 95px;
+  color: #ff6868;
   z-index: 2;
 }
 
@@ -35,20 +49,13 @@
   font-size: 30px;
   line-height: 40px;
   font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-style: italic;
+  margin: auto;
+  padding-bottom: 20px;
+  max-width: fit-content;
   z-index: 2;
-}
-
-.header__span-accent {
-  display: block;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
-  color: #ff6868;
-  z-index: 2;
+  opacity: 0.75;
 }
 
 .header__footer {
@@ -59,13 +66,10 @@
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
+  text-align: center;
   color: #000;
   z-index: 2;
   opacity: 0.5;
-}
-
-.header__address {
-  text-align: center;
 }
 
 .header__circle-1 {
@@ -111,15 +115,26 @@
   }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1051px) {
   .header__circle-1 {
-    position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
   .header__circle-outer {
     width: 300px;
     height: 300px;
+  }
+}
+
+@media screen and (max-width: 898px) {
+  .header__circle-1 {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+  }
+  .header__circle-outer {
+    width: 255px;
+    height: 255px;
   }
 }
 
@@ -145,8 +160,10 @@
 @media screen and (max-width: 584px) {
   .header__title {
     font-size: 60px;
+    line-height: 30px;
     margin: auto;
     text-align: center;
+    padding-top: 40px;
     padding-bottom: 15px;
   }
   .header__description {
@@ -187,12 +204,15 @@
   .header__title {
     font-size: 50px;
     text-align: center;
+    line-height: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
   }
   .header__description {
     font-size: 20px;
     text-align: center;
     padding-bottom: 12px;
+    line-height: 20px;
   }
   .header__circle-1 {
     opacity: 0.25;
@@ -202,18 +222,18 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   .header__title {
     text-align: center;
-    max-width: 250px;
-    font-size: 30px;
-    line-height: 30px;
-    padding-top: 20px;
+    margin: auto;
+    font-size: 35px;
+    line-height: 20px;
+    padding-top: 40px;
   }
   .header__span-accent {
     text-align: center;
     max-width: 250px;
-    font-size: 40px;
+    font-size: 35px;
   }
   .header__description {
     font-size: 15px;
@@ -236,5 +256,11 @@
     font-size: 8px;
     text-align: center;
     margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .header__title {
+    font-size: 25px;
   }
 }
