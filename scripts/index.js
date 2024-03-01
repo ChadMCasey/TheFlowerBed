@@ -49,6 +49,7 @@ cardButton.forEach((button) => {
   button.addEventListener("click", () => {
     popUp.classList.add("modal_opened");
     modalTitle.textContent = flowerObjects[key].title;
+    modalImage.src = "";
     modalImage.src = flowerObjects[key].img;
     modalDescription.textContent = flowerObjects[key].description;
   });
